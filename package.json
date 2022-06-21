@@ -1,0 +1,19 @@
+{
+	"name": "test-clickhouse",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "node test.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@depyronick/clickhouse-client": "^1.0.14",
+		"clickhouse": "^2.5.0",
+		"dayjs": "^1.11.3",
+		"dotenv": "^16.0.1"
+	}
+}
